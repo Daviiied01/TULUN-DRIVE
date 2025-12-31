@@ -1,11 +1,40 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# 🏍️ MotoGestion - Sistema de Control de Carreras
 
-  <h1>Built with AI Studio</h2>
+Este proyecto es una plataforma integral para la gestión, control y liquidación de carreras de motorizados.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 🚀 Cómo empezar
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### 1. Instalación
+```bash
+npm install
+```
 
-</div>
+### 2. Desarrollo
+```bash
+npm run dev
+```
+
+## 🤖 Automatización (GitHub Actions)
+
+¡Este repositorio está configurado con **CI/CD**! 
+
+- Cada vez que hagas un `git push origin main`, GitHub activará una **Action** (puedes verla en la pestaña "Actions" de tu repositorio).
+- El sistema compilará automáticamente el proyecto y actualizará tu sitio web en **GitHub Pages**.
+- No necesitas ejecutar `npm run deploy` manualmente una vez que configures el repositorio.
+
+## 🌐 Configuración inicial en GitHub
+
+Para que la automatización funcione:
+1. Sube tu código a GitHub.
+2. Ve a la pestaña **Settings** > **Pages** de tu repositorio.
+3. En **Build and deployment** > **Source**, asegúrate de que esté seleccionado "Deploy from a branch".
+4. Selecciona la rama `gh-pages` y la carpeta `/(root)`.
+5. ¡Listo! Tu sitio se actualizará solo.
+
+---
+## 🛠️ Tecnologías
+* **React 19** + **TypeScript**
+* **Vite** (Build tool)
+* **GitHub Actions** (Automatización)
+* **Tailwind CSS**

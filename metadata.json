@@ -1,0 +1,7 @@
+{
+  "name": "TULUN REGISTROS",
+  "description": "Una plataforma integral para la gestión, control y liquidación de carreras de motorizados con perfiles diferenciados, cálculo de tarifas automático y generación de reportes PDF.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
